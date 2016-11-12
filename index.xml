@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Simon Wessel</title>
+    <link>https://nllptr.github.io/index.xml</link>
+    <description>Recent content on Simon Wessel</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 12 Nov 2016 22:03:10 +0100</lastBuildDate>
+    <atom:link href="https://nllptr.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>My YouTube Debut</title>
+      <link>https://nllptr.github.io/blog/My-YouTube-Debut/</link>
+      <pubDate>Sat, 12 Nov 2016 22:03:10 +0100</pubDate>
+      
+      <guid>https://nllptr.github.io/blog/My-YouTube-Debut/</guid>
+      <description>&lt;p&gt;So I&amp;rsquo;ve made my YouTube debut. Well, actually I made a series of videos
+a few years ago, but that was on a totally different topic. They&amp;rsquo;re
+still up there on my channel if you happen to be interested in creating
+chiptunes.&lt;/p&gt;
+
+&lt;p&gt;But what are these new videos about? First of all, I created a series
+called &amp;ldquo;Watch me learn Go&amp;rdquo;, which is about just that. Me learning Go.
+I intend for this series to be mostly recorded programming sessions,
+since that makes it easy to produce. Just record and upload, that&amp;rsquo;s the idea.
+The first set of videos are me creating a program that creates animated
+GIFs with Conway&amp;rsquo;s &amp;ldquo;Game of Life&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;At some point I will probably go back and tag these as &amp;ldquo;season 1&amp;rdquo;, and
+then make each project its own season. &lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLPjqiiL5Dzkr8QYSXZpWsdIUsSiDFe-I9&#34;&gt;If you want to check out the
+playlist, you can do so here&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;I have also recorded the first part of an ongoing series called &amp;ldquo;Golang Gotchas&amp;rdquo;,
+in which I will dive in to gotchas and stumbling blocks that I&amp;rsquo;ve come across
+as I learn more about Go programming. &lt;strong&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLPjqiiL5DzkqkMPsUR9Bb-AAZqSDDuAmt&#34;&gt;You can watch my Golang Gotchas here&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;See ya!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>https://nllptr.github.io/about/</link>
+      <pubDate>Fri, 11 Nov 2016 23:19:18 +0100</pubDate>
+      
+      <guid>https://nllptr.github.io/about/</guid>
+      <description>&lt;p&gt;So you found me. Great! If you&amp;rsquo;re reading this I&amp;rsquo;m going to aassume
+that you want to know more about me and who I am.&lt;/p&gt;
+
+&lt;p&gt;First of all, my name is Simon. I live in Hässleholm in the southern
+part of Sweden. I live here with my wife and two kids. Our family
+also includes cats and chickens. We really love spending our time in
+the garden, trying to grow our own food as best we can. We are still
+new at it, but the only way to get better at that stuff is getting your
+hands dirty and learn while doing.&lt;/p&gt;
+
+&lt;p&gt;To support this lifestyle of ours, I work as a Java developer at
+Tyringekonsult AB in the town of Tyringe, just 20 minutes away.
+Tyringekonsult is really good at EDI and sells services for logistics,
+automotive, trade, and most recently, the build industry. At work, I
+live mostly in Java land and do web development with the Apache Wicket
+framework. There is a lot of SQL involved, so I consider myself somewhat
+proficient with that as well.&lt;/p&gt;
+
+&lt;p&gt;However, this site is about the Go programming language. I&amp;rsquo;ve gotten really
+hooked by this language. Here are some reasons I like it:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;It&amp;rsquo;s small. There isn&amp;rsquo;t really that much to learn in terms of keywords
+and language constructs. Usually there&amp;rsquo;s only one way to do them and that&amp;rsquo;s good.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;It has a great standard library! I like Python for the same reason.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The tools that come with the language are awesome.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;I can cross compile without worries like a boss.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;It has the best mascot ever.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&amp;hellip; more to come.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
