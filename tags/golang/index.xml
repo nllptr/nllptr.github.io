@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Simon Wessel</title>
+    <title>Golang on Simon Wessel</title>
     <link>https://nllptr.github.io/tags/golang/index.xml</link>
-    <description>Recent content on Simon Wessel</description>
+    <description>Recent content in Golang on Simon Wessel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <atom:link href="https://nllptr.github.io/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>My YouTube Debut</title>
-      <link>https://nllptr.github.io/blog/My-YouTube-Debut/</link>
+      <link>https://nllptr.github.io/blog/my-youtube-debut/</link>
       <pubDate>Sat, 12 Nov 2016 22:03:10 +0100</pubDate>
       
-      <guid>https://nllptr.github.io/blog/My-YouTube-Debut/</guid>
+      <guid>https://nllptr.github.io/blog/my-youtube-debut/</guid>
       <description>&lt;p&gt;So I&amp;rsquo;ve made my YouTube debut. Well, actually I made a series of videos
 a few years ago, but that was on a totally different topic. They&amp;rsquo;re
 still up there on my channel if you happen to be interested in creating

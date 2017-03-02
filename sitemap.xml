@@ -2,18 +2,64 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://nllptr.github.io/</loc>
-    <lastmod>2016-11-12T22:03:10+01:00</lastmod>
+    <loc>https://nllptr.github.io/blog/broadcom-wireless-ubuntu/</loc>
+    <lastmod>2017-03-02T12:37:59+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nllptr.github.io/blog/My-YouTube-Debut/</loc>
+    <loc>https://nllptr.github.io/blog/my-youtube-debut/</loc>
     <lastmod>2016-11-12T22:03:10+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://nllptr.github.io/about/</loc>
     <lastmod>2016-11-11T23:19:18+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nllptr.github.io/blog/</loc>
+    <lastmod>2017-03-02T12:37:59+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nllptr.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nllptr.github.io/categories/go/</loc>
+    <lastmod>2016-11-12T22:03:10+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nllptr.github.io/tags/golang/</loc>
+    <lastmod>2016-11-12T22:03:10+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nllptr.github.io/categories/helpdesk/</loc>
+    <lastmod>2017-03-02T12:37:59+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nllptr.github.io/</loc>
+    <lastmod>2017-03-02T12:37:59+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nllptr.github.io/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nllptr.github.io/tags/youtube/</loc>
+    <lastmod>2016-11-12T22:03:10+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>

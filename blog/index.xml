@@ -1,20 +1,60 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog-rsses on Simon Wessel</title>
+    <title>Blogs on Simon Wessel</title>
     <link>https://nllptr.github.io/blog/index.xml</link>
-    <description>Recent content in Blog-rsses on Simon Wessel</description>
+    <description>Recent content in Blogs on Simon Wessel</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 12 Nov 2016 22:03:10 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 02 Mar 2017 12:37:59 +0100</lastBuildDate>
     <atom:link href="https://nllptr.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Broadcom wireless drivers in Ubuntu</title>
+      <link>https://nllptr.github.io/blog/broadcom-wireless-ubuntu/</link>
+      <pubDate>Thu, 02 Mar 2017 12:37:59 +0100</pubDate>
+      
+      <guid>https://nllptr.github.io/blog/broadcom-wireless-ubuntu/</guid>
+      <description>
+
+&lt;p&gt;In 2014 I bought a new laptop. When I installed Ubuntu I painfully realized
+that it had a Broadcom wireless chip which Ubuntu had trouble setting up
+properly. The problem has persisted in every Ubuntu release ever since 14.04,
+which was the current release when I got the computer.&lt;/p&gt;
+
+&lt;h2 id=&#34;symptoms&#34;&gt;Symptoms&lt;/h2&gt;
+
+&lt;p&gt;Launch the &amp;ldquo;Additional Drivers&amp;rdquo; application. In the list of available
+proprietary drivers, choose to enable the Broadcom driver and click
+&amp;ldquo;Apply Changes&amp;rdquo;. After a few seconds the application refreshes, but the
+Broadcom driver still shows as &amp;ldquo;Do not use the device&amp;rdquo;.&lt;/p&gt;
+
+&lt;h2 id=&#34;fix&#34;&gt;Fix&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo software-properties-gtk
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The &amp;ldquo;Software &amp;amp; Updates&amp;rdquo; dialog will pop up. Go to the &amp;ldquo;Additional Drivers&amp;rdquo;
+tab and do the procedure described above. This time, if you&amp;rsquo;re lucky, the
+changes will  stick and you&amp;rsquo;ll be able to connect to a wireless network.
+Some people say that you should run graphical applications with gksu or
+gksudo, but honestly, I haven&amp;rsquo;t had any trouble with this approach.&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;Run the &amp;ldquo;Software &amp;amp; Updates&amp;rdquo; dialog as root with&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;sudo software-properties-gtk
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
       <title>My YouTube Debut</title>
-      <link>https://nllptr.github.io/blog/My-YouTube-Debut/</link>
+      <link>https://nllptr.github.io/blog/my-youtube-debut/</link>
       <pubDate>Sat, 12 Nov 2016 22:03:10 +0100</pubDate>
       
-      <guid>https://nllptr.github.io/blog/My-YouTube-Debut/</guid>
+      <guid>https://nllptr.github.io/blog/my-youtube-debut/</guid>
       <description>&lt;p&gt;So I&amp;rsquo;ve made my YouTube debut. Well, actually I made a series of videos
 a few years ago, but that was on a totally different topic. They&amp;rsquo;re
 still up there on my channel if you happen to be interested in creating

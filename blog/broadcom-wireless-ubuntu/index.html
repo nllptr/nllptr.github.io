@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="description" content="Learning Go programming">
+<meta name="keywords" content="go,golang,programming,developer">
+
+<base href="https://nllptr.github.io/">
+
+<title>Simon Wessel</title>
+
+<meta name="generator" content="Hugo 0.20-DEV" />
+
+
+
+
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400|Roboto+Slab:400,700|Roboto:300,300i,400,400i,500,500i,700,700i">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://nllptr.github.io/css/main.css">
+
+
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">
+
+</head>
+<body lang="en-US">
+<div class="container">
+
+
+<header class="row text-left title">
+  <h1 class="title">Broadcom wireless drivers in Ubuntu</h1>
+</header>
+<section id="category-pane" class="row meta">
+  
+  <div class="col-md-12">
+    <h6 class="text-left meta">
+      PUBLISHED ON MAR 2, 2017 
+      
+      
+      — 
+      
+      
+      <a class="meta" href="/categories/helpdesk">HELPDESK</a>
+      
+      
+    </h6>
+  </div>
+  
+</section>
+<section id="content-pane" class="row">
+  <div class="col-md-12 text-justify content">
+    
+
+<p>In 2014 I bought a new laptop. When I installed Ubuntu I painfully realized
+that it had a Broadcom wireless chip which Ubuntu had trouble setting up
+properly. The problem has persisted in every Ubuntu release ever since 14.04,
+which was the current release when I got the computer.</p>
+
+<h2 id="symptoms">Symptoms</h2>
+
+<p>Launch the &ldquo;Additional Drivers&rdquo; application. In the list of available
+proprietary drivers, choose to enable the Broadcom driver and click
+&ldquo;Apply Changes&rdquo;. After a few seconds the application refreshes, but the
+Broadcom driver still shows as &ldquo;Do not use the device&rdquo;.</p>
+
+<h2 id="fix">Fix</h2>
+
+<pre><code class="language-bash">sudo software-properties-gtk
+</code></pre>
+
+<p>The &ldquo;Software &amp; Updates&rdquo; dialog will pop up. Go to the &ldquo;Additional Drivers&rdquo;
+tab and do the procedure described above. This time, if you&rsquo;re lucky, the
+changes will  stick and you&rsquo;ll be able to connect to a wireless network.
+Some people say that you should run graphical applications with gksu or
+gksudo, but honestly, I haven&rsquo;t had any trouble with this approach.</p>
+
+<h2 id="tl-dr">TL;DR</h2>
+
+<p>Run the &ldquo;Software &amp; Updates&rdquo; dialog as root with</p>
+
+<pre><code class="language-bash">sudo software-properties-gtk
+</code></pre>
+
+  </div>
+</section>
+<section id="tag-pane" class="row meta">
+  
+  <div class="col-md-12">
+    <h6 class="text-right meta">
+      
+      
+    </h6>
+  </div>
+  
+</section>
+
+
+
+
+
+
+
+
+<section id="menu-pane" class="row menu text-center">
+  
+  
+  <span><a class="menu-item" href="https://nllptr.github.io/blog/my-youtube-debut/">&lt; prev | </a></span>
+  
+  
+  <span><a class="menu-item" href="/blog">blog</a></span>
+  
+  
+  
+  <h4 class="text-center"><a class="menu-item" href="https://nllptr.github.io/">home</a></h4>
+</section>
+
+
+
+<footer class="row text-center footer">
+  <hr />
+  
+  <h6 class="text-center copyright">© 2016. Simon Wessel.</h6>
+  
+  <h6 class="text-center powered">Powered by <a href="https://gohugo.io/">Hugo</a> &amp; <a href="https://github.com/shenoybr/hugo-goa">Goa</a>.</h6>
+  
+  
+</footer>
+
+</div>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
+<script type="text/javascript">
+hljs.initHighlightingOnLoad();
+</script>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
+
+
